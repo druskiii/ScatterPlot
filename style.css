@@ -1,0 +1,77 @@
+h1 {
+    color: #0b658f;
+    font-family: verdana;
+    margin: 20px auto 15px auto;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, #becde2, #94ebeb 30%, #e7a17d);
+    animation: gradient 30s ease infinite;
+    background-size: 200% 200%;
+    font-family: sans-serif;
+  }
+  
+  svg {
+    background-color: #11668e;
+    border-radius: 10px;
+    border: 3px solid black;
+    box-shadow: 5px 5px red;
+  }
+  
+  text {
+    color: whitesmoke;
+    font-size: 17px;
+  }
+  
+  svg > text {
+    color: white;
+  }
+  
+  .dot {
+    stroke: #000;
+  }
+  
+  .dot:hover {
+    fill: #ee0000 !important;
+    pointer-events: all;
+  }
+  
+  #tooltip {
+    font-family: courier;
+    font-size: 17px;
+    text-decoration: underline;
+    align-items: center;
+    padding-top: 10px;
+    margin-top: 5px;
+    text-align: center;
+  }
+
+  #legend {
+    font-family: courier;
+    font-size:15px;
+    padding-top: 10px;
+    margin-top: 5px;
+    text-align: left;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+  }
+
+  .flex-left {
+    width: 40%;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .flex-right {
+    width: 55%;
+    margin: 5px;
+    padding: 5px;
+  }

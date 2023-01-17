@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScatterPlot Graph</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <h1>🔥 Who's On The Naughty List 🔥</h1>
+
+    <svg id="canvas">
+        <text id="title" x="200" y="20" style="fill: white; font: italic 20px courier; 
+            font-family: courier;">Doping In Professional Bicycle Racing</text>
+    </svg>
+    <div class="flex-container">
+        <div id="legend" class="flex-left">
+            <strong>Year</strong> (X Axis) vs <strong>Time</strong> (Y Axis)<br />
+            <strong>Orange</strong> = Doping Allegation<br />
+            <strong>Green</strong> = No Doping Allegation
+        </div>
+        <div id="tooltip" class="flex-right"></div>
+    </div>
+</body>
+    <script defer src="./script.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
