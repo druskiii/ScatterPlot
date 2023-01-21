@@ -42,7 +42,7 @@ h1 {
   
   #tooltip {
     font-family: courier;
-    font-size: 17px;
+    font-size: 15px;
     text-decoration: underline;
     align-items: center;
     padding-top: 10px;
@@ -52,7 +52,7 @@ h1 {
 
   #legend {
     font-family: courier;
-    font-size:15px;
+    font-size: 15px;
     padding-top: 10px;
     margin-top: 5px;
     text-align: left;
@@ -71,7 +71,7 @@ h1 {
   }
 
   .flex-right {
-    width: 55%;
+    width: 60%;
     margin: 5px;
     padding: 5px;
   }
